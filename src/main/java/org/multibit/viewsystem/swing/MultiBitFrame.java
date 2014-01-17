@@ -227,6 +227,7 @@ public class MultiBitFrame extends JFrame implements ViewSystem, ApplicationList
     
     private MultiBitWalletBusyAction showImportPrivateKeysAction;
     private MultiBitWalletBusyAction showExportPrivateKeysAction;
+    private MultiBitWalletBusyAction showDonationsAction;
     private MultiBitWalletBusyAction resetTransactionsAction;
  
     /**
@@ -1097,6 +1098,20 @@ public class MultiBitFrame extends JFrame implements ViewSystem, ApplicationList
         toolsMenu.add(menuItem);
 
         toolsMenu.addSeparator();
+        
+        
+        // Donations.
+        showDonationsAction = new MultiBitWalletBusyAction(this.bitcoinController, ImageLoader.MONEY_ICON_FILE,
+                "showDonationsAction.text", "showDonationsAction.tooltip", "showDonationsAction.mnemonic",
+                View.SHOW_DONATIONS_VIEW);
+        menuItem = new JMenuItem(showDonationsAction);
+        menuItem.setFont(FontSizer.INSTANCE.getAdjustedDefaultFont());
+        menuItem.setComponentOrientation(componentOrientation);
+        toolsMenu.add(menuItem);
+
+        toolsMenu.addSeparator();
+        
+        
 
         resetTransactionsAction = new MultiBitWalletBusyAction(this.bitcoinController, ImageLoader.RESET_TRANSACTIONS_ICON_FILE,
                 "resetTransactionsAction.text", "resetTransactionsAction.tooltip", "resetTransactionsAction.mnemonic",

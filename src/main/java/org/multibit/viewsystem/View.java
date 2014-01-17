@@ -44,6 +44,7 @@ public enum View {
     SHOW_OPEN_URI_DIALOG_VIEW,
     SHOW_IMPORT_PRIVATE_KEYS_VIEW,
     SHOW_EXPORT_PRIVATE_KEYS_VIEW,
+    SHOW_DONATIONS_VIEW,
     WELCOME_VIEW,
     MESSAGES_VIEW,
     ADD_PASSWORD_VIEW,
@@ -105,6 +106,7 @@ public enum View {
             case 22 : return CHARTS_VIEW;
             case 23 : return SIGN_MESSAGE_VIEW;
             case 24 : return VERIFY_MESSAGE_VIEW;
+            case 25 : return SHOW_DONATIONS_VIEW;
                 
             case 3 : case 8 : case 9 : case 10 : case 12 :
                 return TRANSACTIONS_VIEW;
@@ -146,6 +148,7 @@ public enum View {
             case CHARTS_VIEW : return 22;
             case SIGN_MESSAGE_VIEW : return 23;
             case VERIFY_MESSAGE_VIEW : return 24;
+            case SHOW_DONATIONS_VIEW : return 25;
 
             default : return 0;
         }
