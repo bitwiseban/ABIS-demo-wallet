@@ -1,3 +1,6 @@
+Note: This is the ABIS-demo-wallet fork of Multibit.
+For the original Multibit project please visit: https://github.com/jim618/multibit
+
 ### MultiBit configuration options
 
 All these options are set in the main control file `multibit.properties`. MultiBit looks in a few places for this file in the following order:

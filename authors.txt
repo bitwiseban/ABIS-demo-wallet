@@ -1,3 +1,13 @@
+Note: This is the ABIS-demo-wallet fork of Multibit.
+For the original Multibit project please visit: https://github.com/jim618/multibit
+
+ABIS-demo-wallet
+
+Developers:
+-----------
+Filipe Farinha
+
+
 MultiBit
 
 Developers:

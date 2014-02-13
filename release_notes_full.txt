@@ -1,3 +1,6 @@
+Note: This is the ABIS-demo-wallet fork of Multibit.
+For the original Multibit project please visit: https://github.com/jim618/multibit
+
 MultiBit release notes.
 
 24 June 2013 - Version 0.5.12

@@ -20,12 +20,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.multibit</groupId>
-    <artifactId>multibit</artifactId>
+    <groupId>org.jsite</groupId>
+    <artifactId>abis</artifactId>
     <version>0.5.14</version>
-    <name>MultiBit</name>
-    <description>A Java Swing client for Bitcoin</description>
-    <url>https://multibit.org</url>
+    <name>ABIS-demo-wallet</name>
+    <description>A Java Swing client for Bitcoin
+
+Note: This is the ABIS-demo-wallet fork of Multibit.
+For the original Multibit project please visit: https://github.com/jim618/multibit</description>
     <!-- Use "mvn clean package" to build the code packaged into a basic multibit.jar 
   		Use "mvn clean verify" before submitting a patch Use "mvn clean install" 
   		to build the executable jar, installers and Mac DMG Use "mvn site:site" to 
@@ -42,12 +44,12 @@
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/jim618/multibit/issues</url>
+        <url>https://github.com/bitwisebank/ABIS-demo-wallet/issues</url>
     </issueManagement>
 
     <scm>
         <!-- Public read-only source -->
-        <url>https://github.com/jim618/multibit</url>
+        <url>https://github.com/bitwisebank/ABIS-demo-wallet</url>
     </scm>
 
     <repositories>
